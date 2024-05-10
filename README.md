@@ -4,7 +4,7 @@ This is my website rehaul - beginning on 5/9/2024 and ending never, probably.
 
 ## Table of contents
 
-- [Links] (#links)
+- [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
