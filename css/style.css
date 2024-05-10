@@ -63,7 +63,17 @@ p {
     text-align: justify;
 
 }
-
+.exp ul {
+    padding-top: -50px;
+    padding-left: 10px;
+    
+}
+.exp li {
+    padding-left: 20px;
+    text-indent: -15px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
+}
 .sidebar p {
     position: absolute;
     top: 300px;
