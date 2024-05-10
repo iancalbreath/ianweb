@@ -1,0 +1,46 @@
+h1 {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 10px
+}
+
+p {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 10px
+}
+
+
+.container {
+    display: flex
+}
+
+.sidebar {
+
+    width: 275px;
+    background-image: url('greybar.png');
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    margin: top 10px;
+
+}
+
+.ianphoto {
+    position: absolute;
+    margin: 50px;
+    margin-top: 50px;
+
+}
+
+.sidebar p {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
+}
+
+.bio {
+    flex-grow: 1;
+    padding: 20px;
+}
+
