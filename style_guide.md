@@ -12,7 +12,7 @@ The designs were created to the following widths:
 ## Colors
 main:
 - greybar: (234, 232, 232)
-
+- goldenrod (255, 193, 7)
 
 (future use as of 05.09.2024):
 - White: hsl(0, 0%, 100%)
