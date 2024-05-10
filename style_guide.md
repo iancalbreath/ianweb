@@ -31,7 +31,7 @@ main:
 - Family: [Didact Gothic](https://fonts.google.com/specimen/Didact+Gothic)
 - Weights: TBD (05.09.24)
 
-- Family: [Oswald] (https://fonts.google.com/specimen/Oswald)
+- Family: [Oswald](https://fonts.google.com/specimen/Oswald)
 - Weights: SemiBold 600
 
 
