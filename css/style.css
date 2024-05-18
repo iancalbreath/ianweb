@@ -111,7 +111,7 @@ p {
 }
 
 .center-image {
-    display: flex;
+    display: block;
     margin: auto;
     padding-left: 20px;
     max-width: 100%;
