@@ -112,7 +112,7 @@ if ($result === false) {
 
 
     <div class="sqlsearch">
-        <h2>Search Ian's SQL Database of Original Fantasy Characters</h2>
+        <h2>Ian's SQL Database of Original Fantasy Characters</h2>
         <p>(HINT: Try "bear" ... or try "%" to see all records.)</p>
         <form method="post" action="search.php">
             <input type="text" name="search" placeholder="Search for characters">
@@ -123,7 +123,7 @@ if ($result === false) {
 
         if ($search) {
             if ($result->num_rows > 0) {
-                echo "<h2>Search Results:</h2>";
+                echo "<h4>Search Results:</h4>";
                 echo "<div class='table-container'><table border='1'><tr><th>ID</th><th>First Name</th><th>Last Name</th><th>Species</th><th>Hometown</th><th>Height</th><th>Weight</th><th>Eye Color</th><th>Hair Color</th><th>Build</th><th>Positive Traits</th><th>Negative Traits</th><th>Motivations</th><th>Fears</th><th>Family Members</th><th>Education</th><th>Physical Perks</th><th>Magical Perks</th><th>Social Perks</th><th>Languages</th><th>Primary Weapon</th><th>Primary Armor</th><th>Unique Items</th><th>Social Status</th><th>Affiliations</th><th>Enemies</th></tr></div>";
                 // Output data of each row
                 while($row = $result->fetch_assoc()) {
