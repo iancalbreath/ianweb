@@ -8,7 +8,52 @@ p {
     font-size: 10px
 }
 
+h2 {
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
 
+
+.sqlsearch {
+    display: block;
+    padding-top: 10px;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.sqlsearch p {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
+    line-height: 7px;
+
+}
+
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+th, td {
+
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 14px;
+    border: 1px solid black;
+    text-align: left;
+    min-width: 100px;
+    max-height: 20px;
+    overflow-y: auto;
+}
+
+th {
+    background-color: #f2f2f2;
+}
 .container {
     display: flex;
     margin-left: -15px;
