@@ -48,7 +48,9 @@ th, td {
     text-align: left;
     min-width: 100px;
     max-height: 20px;
-    overflow-y: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 th {
