@@ -88,7 +88,6 @@ th {
     position: relative;
     z-index: 2;
     padding: 70px;
-    margin-right: 200px;
 }
 .exp h1 {
     font-family: 'Oswald', sans-serif;
@@ -100,24 +99,30 @@ th {
 .exp h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    margin: 10px;
+    margin: 5px;
     letter-spacing: 2px;
+    line-height: 30px;
 }
 .exp h3 {
     font-family: 'Oswald', sans-serif;
-    margin: 0px;
+    margin-left: 3px;
     font-weight: 600;
     letter-spacing: 1px;
+
 }
 .exp p {
-    font-size: 15px;
+    font-size: 17px;
     text-align: justify;
+    margin-left: 5px;
+    line-height: 17px;
 
 }
 .exp ul {
     font-family: 'Didact Gothic', sans-serif; 
     padding-top: -50px;
     padding-left: 10px;
+    margin-left: 7px;
+    line-height: 18px;
     
 }
 .exp li {
@@ -149,6 +154,12 @@ th {
     
 
 }
+
+.nav-link.active {
+    color: black !important;
+
+}
+
 
 .contacts {
     display: flex;
