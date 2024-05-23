@@ -189,31 +189,52 @@ th {
 
 
 /* MOBILE */
-
-@media (max-width: 375px) {
+@media only screen and (max-width: 600px) {
+    /* General Styles */
+    body {
+        font-size: 16px;
+        margin-right: 0px; /* Adjust font size for readability */
+    }
     .container {
-        flex-direction: column; /* Stack items vertically */
+        margin-right: 0px;
+    }
+    .navbar.navbar-expand-lg {
+        margin-left: 0px;
+        opacity: 1;
     }
 
-    .sidebar {
-        width: 100%; /* Full width for smaller screens */
-        padding-top: 50px; /* Adjust padding for smaller screens */
+    .navbar-toggler {
+        background-color: rgb(234, 232, 232);
+        justify-content: flex-start;
     }
 
-    .ianphoto {
-        position: static; /* Reset position for smaller screens */
-        margin: 0; /* Reset margin */
-    }
+  
 
-    .exp {
-        padding: 10px; /* Adjust padding for smaller screens */
-    }
-
-    .exp h1 {
-        font-size: 20px; /* Adjust font size for smaller screens */
-    }
 
     .exp p {
-        font-size: 12px; /* Adjust font size for smaller screens */
+        line-height: 20px;
     }
-}
+    .sqlsearch {
+        margin-left: 400px;
+        position: absolute;
+        line-height: 25px;
+        margin-top: 30px;
+    }
+    .sqlsearch p {
+
+        line-height: 18px;
+    
+    }
+    /* Page Content */
+    .container {
+      padding: 10px; /* Add padding for better spacing */
+      margin-right: 0px;
+    }
+    .contacts {
+        position: relative;
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+
+  }
+  
